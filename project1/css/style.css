@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Handlee|Patrick+Hand&display=swap');
+main{
+	padding: 0px;
+	overflow: auto;
+}
+.img1{
+	padding: 10px 0px;
+	position: center;
+	width: 100%;
+}
+
+nav ul{
+	position: absolute;
+	top: 208px;
+}
+
+nav ul li{
+	float: left;
+	display: inline;
+}
+
+nav ul li a{
+	background-color: #ffffff;
+	padding: 14px 90px;
+	text-decoration: none;
+	margin-right: 8px;
+	border-radius: 8px 8px 0px 0px;
+	font-size: 0.99em;
+	font-weight: 650;
+	font-family: 'Patrick Hand', cursive;
+	text-align: left;
+}
+body{
+	margin: 0px;
+}
+header{
+	padding-top: 5px;
+	background-color: #ffcccc;
+	height: 250px;
+}
+main{
+	padding: 10px;
+}
+footer{
+	background-color: #ffcccc;
+	text-align: center;
+	padding: 25px;
+}
+footer p{
+	color: black;
+	font-size: 0.90em;
+	font-weight: 700;
+}
+.activate{
+	color: black;
+}
+body, html {
+	height: 100%;
+}
+.my-image {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/destinytpy4/image/upload/v1570824662/background-3470205_960_720_hvitwr.jpg");
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.my-text {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+.column {
+	float: left;
+	width: 48A%;
+	margin-bottom: 16px;
+	padding: 0 8px;
+}
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+	padding: 0 10px;
+}
+
+.container::after, .row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.title {
+	color: grey;
+}
+.button {
+	margin: 0em 0em 0em 29.9em;
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 0px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 20%;
+	text-decoration: none;
+	font-family: 'Patrick Hand', cursive;
+}
+.button:hover {
+	background-color: #555;
+}
+.fab{
+	background-color: #f9ecf2;
+	padding: 8px;
+	border-radius: 100%;
+	width: 25px;
+	height: 25px;
+	font-size: 1.5em;
+	color: #ffffff;
+	border: 2px solid #f9ecf2;
+	margin-right: 23px;
+}
+.fab:hover{
+	background-color: #d279a6;
+}
+.fa-facebook-f {
+	background-color: #3B5998;
+}
+.fa-twitter{
+	background-color:#55ACEE;
+}
+.fa-youtube{
+	background-color: #c4302b;
+}
+.fa-linkedin-in{
+	background-color: #0e76a8;
+}
+.fa-instagram{
+	background-color: #d44899;
+}
+.fa-snapchat-ghost{
+	background-color: #fffd52;
+}
+.map{
+	width: 49%;
+	float: right;
+	border: 0px solid #000000;
+	padding: 50px 0px 0px 20px;
+}
+.contactform{
+	width: 49%;
+	float: left;
+	padding: 40px 0px 30px 0px
+}
+h1{
+	font-family: 'Gloria Hallelujah', cursive;
+	text-align: center;
+}
+h3{
+	font-family: 'Gloria Hallelujah', cursive;
+	text-align: center;
+}
+h2{
+	text-align:center;
+	font-family: 'Patrick Hand', cursive;
+}
+p{
+	font-family: 'Handlee', cursive;	
+}
+.team-image {
+	width: 450px;
+}
+.fa-star{
+	color: #ffe83b;
+}
+.test-container{
+	border: 2px solid #ccc;
+	background-color: #eee;
+	border-radius: 5px;
+	padding: 20px;
+	margin: 16px 0;
+}
+.test-container:: after{
+	conent: "";
+	clear: both;
+	display: table;
+}
+.test-container img{
+	float: left;
+	margin-right: 30px;
+	border-radius: 100%;
+	width: 60px;
+}
+.test-container span{
+	font-size: 20px;
+	margin-right: 15px;
+}
+@media (max-width: 500px){
+	.test-container{
+		text-align: center;
+	}
+	.test-container img{
+		margin: auto;
+		float: none;
+		display: block;
+		border-radius: 100%;
+	}
+}
+.p1{
+	padding: 30px 40px 0px 40px;
+	font-family: 'Handlee', cursive;	
+}
+.p2{
+	padding: 0px 40px 0px 40px;
+	font-family: 'Handlee', cursive;	
+}
+.p3{
+	padding: 0px 0px 0px 0px;
+	font-family: 'Handlee', cursive;
+	text-align: center;
+}
+.faq{
+	text-align: center;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+.faq1{
+	text-align:left;
+	font-family: 'Patrick Hand', cursive;
+	padding: 0px 0px 0px 50px;
+}
+.contact{
+	margin: 0em 0em 0em 29.9em;
+	position: center;
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 0px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 20%;
+	text-decoration: none;
+	font-family: 'Patrick Hand', cursive;
+}
+.contact:hover {
+	background-color: #555;
+}
+.par{
+	font-family: 'Handlee', cursive;	
+	padding: 0px 0px 30px 50px;
+}
+.par1{
+	font-family: 'Handlee', cursive;	
+	padding: 0px 0px 70px 50px;
+
+}
+.logo{
+	position: left;
+	border-radius: 100%;
+	width: 15%;	
+	margin: 0px 0px 70px 50px;
+}
+.h-2{
+	text-align:center;
+	font-family: 'Patrick Hand', cursive;
+	padding: 0px 0px 70px 0px
+}
+.h1-1{
+	text-align:center;
+	font-family: 'Patrick Hand', cursive;
+	padding: 50px 0px 0px 0px
+}
+.ecwid{
+	padding: 0px 0px 10px 60px;
+}
+.link{
+	margin: 0em 0em 0em 29.9em;
+	position: center;
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 0px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 20%;
+	text-decoration: none;
+	font-family: 'Patrick Hand', cursive;}
+.link:hover {
+	background-color: #555;
+}
+.h2-3{
+	text-align:center;
+	font-family: 'Patrick Hand', cursive;
+	padding: 100px 0px 0px 0px
+}
